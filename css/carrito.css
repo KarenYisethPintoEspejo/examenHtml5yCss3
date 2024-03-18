@@ -141,3 +141,68 @@ header a{
     font-size: 500%;
 }
 
+.vent{
+    position: absolute;
+    margin-top: -277%;
+    margin-left: 30%;
+    background: var(--color-primary);
+    width: 32%;
+    height: 82%;
+    color: var(--color-secondary);
+    border: 2px solid var(--color-ternario);
+}
+
+
+
+.vent a{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    color: var(--color-secondary);
+    font-size: 400%;
+}
+
+.vent h2{
+    margin-left: 10%;
+    font-size: 2.2rem;
+}
+
+.vent p{
+    font-size: 1.5rem;
+    margin-left: 10%;
+}
+
+.vent h3, button{
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.vent button{
+    font-size: 2rem;
+    width: 60%;
+    background-color: var(--color-ternario);
+    border: 1px solid var(--color-secondary);
+    color: var(--color-secondary);
+}
+
+.productos img{
+    margin-left: 5%;
+    width: 15%;
+}
+
+.titulo{
+    margin-top: -2%;
+    margin-left: 35%;
+}
+
+.productos{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido2{
+    position: fixed;
+    display: flex;
+    margin-top:25%;
+}
