@@ -95,3 +95,16 @@ header h1{
     font-size: 1.5rem;
     margin-right: 40%;
 }
+
+.nombre h3{
+    margin-top: 5%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre button{
+    margin-top: 6%;
+    font-size: 2.8rem;
+    width: 18%;
+}
