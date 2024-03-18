@@ -44,23 +44,24 @@ header h1:hover{
 }
 
 
-.left{
-    margin-left: 10%;
+.left{transition: 3s ease;
     background-color: var(--color-primary);    display: grid;
     grid-template-columns: 1;
 
 }
 
 .product1{
+    margin-top: 2%;
+    margin-left: 2%;
     width: 25%;
-    margin-bottom: 2%; 
+    margin-bottom: 1%; 
 }
 
 .right img{
     margin-left: -350%;
     margin-top: 16%;
     margin-bottom: 3%;
-    width: 400%;
+    width: 409%;
 }
 .right{
     display: grid;
@@ -132,5 +133,11 @@ header h1:hover{
     scrollbar-width: thin;
     scrollbar-color: var(--color-ternario) var(--color-primary);
     
+}
+
+header a{
+    margin-top: -1%;
+    margin-left: 2%;
+    font-size: 500%;
 }
 
