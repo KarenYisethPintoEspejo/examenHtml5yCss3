@@ -1,0 +1,143 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--color-primary);
+}
+header{
+    color: var(--color-secondary);
+    margin-top: 1%;
+    height: 100%;
+    width: 60%;
+    font-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: centeir;
+    margin-left: 17%;
+    margin-bottom: 2%
+}
+
+header h1{
+    margin-left: 9%;
+}
+header h1:hover{
+    color: var(--color-ternario);
+}
+
+
+
+.image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--color-ternario);
+    width: 38%;
+    margin-left: 10%;
+}
+
+
+.left{transition: 3s ease;
+    background-color: var(--color-primary);    display: grid;
+    grid-template-columns: 1;
+
+}
+
+.product1{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 25%;
+    margin-bottom: 1%; 
+}
+
+.right img{
+    margin-left: -350%;
+    margin-top: 16%;
+    margin-bottom: 3%;
+    width: 409%;
+}
+.right{
+    display: grid;
+    grid-template-columns: 1;
+}
+
+.right .product2{
+    margin-top: 40%;
+    margin-left: -400%;
+    width: 400%;
+}
+
+.nombre{
+    color: var(--color-secondary);
+    margin-top: -28%;
+    margin-bottom: 5%;
+    margin-left: 50%;
+    
+
+}
+
+.nombre .image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nombre h2{
+    font-size: 4rem;
+
+}
+.nombre p{
+    font-size: 1.5rem;
+    margin-right: 25%;
+}
+
+.nombre h3{
+    margin-top: 5%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre button{
+    margin-top: 4%;
+    font-size: 2.8rem;
+    width: 18%;
+    background-color: var(--color-ternario);
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
+}
+
+.nombre button:hover{
+    color: var(--color-primary);
+}
+
+.nombre img{
+    width: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.todo{
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 79vh;
+    width: 100%;
+    padding-right: 20px; 
+    margin-top: 3%;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-ternario) var(--color-primary);
+    
+}
+
+header a{
+    margin-top: -1%;
+    margin-left: 2%;
+    font-size: 500%;
+}
+
